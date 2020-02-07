@@ -1,0 +1,268 @@
+@font-face{
+    src: url(..//fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweather;
+}
+
+@keyframes cloudtop{
+    0%{
+        opacity: 1;
+        transform: translate(95vw);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(-95vw);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes cloudbottom{
+    0%{
+        opacity: 1;
+        transform: translate(-95vw);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(95vw);
+    }
+}
+
+@keyframes comett{
+    0%{
+        opacity: 1;
+        transform: translate(50vw);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(50vw);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    text-align: center;
+}
+.header-title{
+    font-family: Sacramento;
+    font-size: 9rem;
+    color:yellow;
+}
+
+.header-sub{
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: #ad41b4;
+}
+.home-header{
+    background-image: url(../img/250541.jpg);
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15rem;
+    border-bottom: black solid 3rem;
+}
+
+.comet{
+    width: 50rem;
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+    animation: comett 10s ;
+}
+.cloud-top{
+    width: 20rem;
+    position: absolute;
+    top: 3rem;
+    left: 25rem;
+    animation: cloudtop 15s infinite linear;
+}
+.cloud-bottom{
+    width: 20rem;
+    position: absolute;
+    right:25rem;
+    top: 40rem;
+    animation: cloudbottom 15s infinite linear;
+}
+.mountain{
+    position: relative;
+    width: 50rem;
+    bottom: -20rem;
+}
+.home-section-intro{
+    background: linear-gradient(to right, black, purple, rgb(113, 191, 201), fuchsia, black);
+    height: 50vh;
+    position: relative;
+    padding: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+
+}
+.intro-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    padding-bottom: 2rem;
+}
+
+.hello{
+    font-size: 5rem;
+    font-family: Sacramento;
+}
+
+.intro{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.home-section-skills{
+    height: 150vh;
+    background: linear-gradient(to right, black, purple, rgb(113, 191, 201), fuchsia, black);
+    position: relative;
+}
+
+.myskills{
+    font-family: Sacramento;
+    font-size: 6rem;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.skills-article-container{
+    border-top: black solid;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 3;
+}
+.skills-browser{
+    width: 15rem;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.title{
+    text-align: justify;
+    font-size: 20px;
+
+}
+.skills-lorem{
+    clear: right;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+.container2{
+    border-top: black solid;
+    border-bottom: black solid;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 3;
+}
+.skills-browser2{
+    width: 15rem;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.title2{
+    text-align: justify;
+    font-size: 20px;
+}
+.skills-lorem2{
+    clear: left;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.get{
+    font-family: Sacramento;
+    font-size: 6rem;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.lets{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.but{
+    background-color: rgb(173, 144, 241);
+    border-color: black solid;
+    border-radius: 20px;
+    margin-top: 7rem;
+    padding: 10px;
+}
+
+.home-footer{
+    height: 10vh;
+    background:black;
+    padding: 20px;
+}
+.instagram{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+
+}
+.facebook{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+
+}
+.twitter{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+
+}
+.copyright{
+    padding: 20px;
+    color: white;
+}
